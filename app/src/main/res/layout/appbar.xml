@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="32dp"
+    android:layout_marginEnd="32dp"
+    android:orientation="horizontal"
+    android:paddingTop="29dp"
+    android:paddingBottom="18dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <!-- ImageButton back button -->
+    <FrameLayout
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_search_view">
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:src="@drawable/ic_back" />
+    </FrameLayout>
+
+    <!-- Space -->
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4" />
+
+    <!-- ImageButton bell button -->
+    <FrameLayout
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_search_view">
+
+        <ImageButton
+            android:id="@+id/bell_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:src="@drawable/ic_bell" />
+    </FrameLayout>
+</LinearLayout>
