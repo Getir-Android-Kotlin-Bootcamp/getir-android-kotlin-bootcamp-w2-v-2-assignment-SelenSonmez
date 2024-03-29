@@ -3,6 +3,9 @@
     <string name="food_couriers">Food Couriers</string>
     <string name="next">Next</string>
     <string name="skip">Skip</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="where_is_your_location"><b>Where is your location?</b></string>
+    <string name="set_location">Set Location</string>
+    <string name="google_map_api_key">AIzaSyCaQfgz_dbGg5GpbVNCEHWy6G9ftWQLjpw</string>
+    <string name="your_location">Your Location</string>
 </resources>
